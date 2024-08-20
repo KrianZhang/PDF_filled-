@@ -10,8 +10,8 @@ import java.util.HashMap;
 import java.util.List;
 
 public class RSEAPI {
-    private static final String API_URL = "https://rseadmin.azurewebsites.net/api/projects?filters[stage][$nei]=completed";
-    private static final String API_TOKEN = "e7b992ecdb5db9719313414f824e459b62cd0043e7addd78e14427ef8a279e1b4e5d61d8f1ed14d33c7171dba9a980b5793e4c9d6a87263dab11c293ac23c4a1881d0144f44db70a8b9f9d42e333c3eefd3edd966dc6e77eb31e5f54d860bf0921cbfa3ec1fc0e67a72e78e596a801222c8ef162bf22057ed11dc640600fcc4b";
+    private static final String API_URL = "YOUR-API_URL";
+    private static final String API_TOKEN = "YOUR-API_TOKEN";
 
     public static List<HashMap<String, String>> fetchRSE() {
         OkHttpClient client = new OkHttpClient();
