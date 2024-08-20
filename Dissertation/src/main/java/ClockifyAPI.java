@@ -15,8 +15,8 @@ import java.time.format.DateTimeFormatter;
 
 
 public class ClockifyAPI {
-    private static final String API_KEY = "MDA1M2NhY2UtNjM0Mi00ZjM3LTllNDUtODE3ZWNkZmE2ZGE4";
-    private static final String WORKSPACE_ID = "61f3ac40ac897025894b32ca";
+    private static final String API_KEY = "YOUR-API_KEY";
+    private static final String WORKSPACE_ID = "YOUR-WORKSPACE_ID";
     private OkHttpClient client = new OkHttpClient();
 
     public List<HashMap<String, String>> fetchClockify(int month) {
